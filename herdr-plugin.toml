@@ -1,0 +1,12 @@
+id = "positron"
+name = "Open in Positron"
+version = "0.1.0"
+min_herdr_version = "0.8.0"
+description = "Open the current Space's directory in Positron"
+platforms = ["macos", "linux"]
+
+[[actions]]
+id = "open"
+title = "Open in Positron"
+contexts = ["workspace"]
+command = ["bash", "open-positron.sh"]
